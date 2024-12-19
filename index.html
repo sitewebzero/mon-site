@@ -3,12 +3,85 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Mon Site</title>
+  <title>Mon Beau Site</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+          href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+          rel="stylesheet">
 </head>
 <body>
-<h1>Bienvenue sur mon site !</h1>
-<p>Ceci est un exemple de page hébergée sur GitHub Pages.</p>
-<script src="script.js"></script>
+<!-- HEADER -->
+<header class="header">
+  <div class="container">
+    <div class="logo">Mon Beau Site</div>
+    <nav class="nav">
+      <ul>
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- SECTION HERO -->
+<section class="hero" id="accueil">
+  <div class="hero-content">
+    <h1>Bienvenue sur Mon Beau Site</h1>
+    <p>Découvrez mes services, mes projets et tout ce que je peux offrir.</p>
+    <a href="#apropos" class="btn">En savoir plus</a>
+  </div>
+</section>
+
+<!-- SECTION A PROPOS -->
+<section class="about" id="apropos">
+  <div class="container">
+    <h2>À propos</h2>
+    <p>Je suis un développeur passionné, créant des sites web élégants et performants.
+      Mon objectif est d’aider les clients à mettre en valeur leur identité sur le web,
+      à travers des designs sur-mesure et une expérience utilisateur optimale.
+      Avec plusieurs années d’expérience, je mets mon savoir-faire technique et créatif
+      au service de votre projet.</p>
+  </div>
+</section>
+
+<!-- SECTION SERVICES -->
+<section class="services" id="services">
+  <div class="container">
+    <h2>Services</h2>
+    <div class="service-list">
+      <div class="service-item">
+        <h3>Conception Web</h3>
+        <p>Des sites modernes, responsives et esthétiques, adaptés à vos besoins.</p>
+      </div>
+      <div class="service-item">
+        <h3>Développement Front-End</h3>
+        <p>Intégration HTML/CSS/JS soignée, animations subtiles et interfaces intuitives.</p>
+      </div>
+      <div class="service-item">
+        <h3>SEO & Optimisation</h3>
+        <p>Amélioration du référencement naturel pour une meilleure visibilité en ligne.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION CONTACT -->
+<section class="contact" id="contact">
+  <div class="container">
+    <h2>Contact</h2>
+    <p>Intéressé par mes services ou une collaboration ? N’hésitez pas à me contacter.</p>
+    <a href="mailto:contact@monbeausite.com" class="btn">Envoyer un email</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <p>© 2024 Mon Beau Site. Tous droits réservés.</p>
+  </div>
+</footer>
 </body>
 </html>
